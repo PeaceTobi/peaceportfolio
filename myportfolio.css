@@ -178,9 +178,9 @@ h1{
 }
 .cv{
     /* border: 2px solid red; */
-    background-color: orangered;
+    background-color: black;
     padding:6px  15px;
-    color: purple;
+    color: white;
     margin-top: 20px;
     font-size: 20px;
     display: inline-block;
@@ -229,10 +229,10 @@ h1{
     line-height: 40px;
 }
 .read{
-    background-color: orangered;
+    background-color: purple;
     padding: 15px 30px;
     border-radius: 10px;
-    color: black;
+    color:white;
     margin-top: 20px;
     font-size: 20px;
 }

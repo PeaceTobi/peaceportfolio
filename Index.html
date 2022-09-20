@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
     <link rel="stylesheet" href="myportfolio.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.google.com/">
     <title>Peace | Portfolio</title>
 </head>
@@ -74,7 +75,7 @@
                                 me and its fun been able to complete it at the end.I have experience with HTML,CSS,JavaScript
                                 JQuery,Bootstrap and Wordpress and currently expanding my skillset.I'm also a graduate of the University of Ilorin,Kwara State Nigeria.
                             </p>
-                 
+                            
                             <a href="/" class="cv">Download CV</a>
                         </div>
                     </section>
@@ -89,9 +90,10 @@
                            <div class="skill-text">
                             <div class="skill-right">
                             <h2>My Creative Skills & Experiences</h2>
-                            <p>Hi,Thanks for checking out my Portfolio.I'm a frontend web developer with experience in HTML,
-                             CSS,JavaScript,Jquery,Bootstrap and Wordpress.I'm countinously expanding my skillset
-                                and experiences to become a better me in the field. </p>
+                            <p>Hi,thanks for checking my Portfolio.I'm a frontend web developer with experience
+                                in<strong> HTML,CSS,JavaScript,JQuery,Bootstrap and Wordpress</strong>.I'm continously expanding
+                                my skillset and experiences to become a better me in this field.
+                            </p>
                                 <form action="https://github.com/PeaceTobi" target="_blank">
                                     <button type="submit" class="read">Read more</button>
                                 </form>
@@ -117,16 +119,16 @@
                 </p>
             </div>
             <div class="my-project row">
-                <div class="project-image">
+                <div class="project-image" data-aos="fade-right">
                     <a href="https://maramin-clone.vercel.app/" target="_blank"><img src="./maramin.png" alt=""></a>
                 </div>
 
-                <div class="project-image">
+                <div class="project-image" data-aos="flip-left">
                     <a href="https://peaceportfolio.vercel.app/" target="_blank"><img src="./portfolio.png" alt=""></a>
                 </div>
 
-                <div class="project-image">
-                    <img src="./food.png" alt="">
+                <div class="project-image" data-aos="fade-left">
+                    <img src="./foodbay.png" alt="">
                 </div>                
             </div>
              </section>
@@ -169,6 +171,8 @@
                 <p>Created by <a href="https://twitter.com/shalomm_xx" target="_blank">PeaceTobi</a> | &copy; 2022 All
                     rights Reserved</p>
             </footer>
+
+            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
             
             
     
@@ -180,6 +184,11 @@
                     backSpeed: 70,
                     loop:true
                 })
+                
             </script>
+            <script>
+                AOS.init();
+              </script>
+            
 </body>
 </html>
