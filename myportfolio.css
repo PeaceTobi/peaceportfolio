@@ -447,7 +447,7 @@ footer > p > a {
     }
     .hero-left{
         width: 100%;
-        padding: 30px;
+        padding: 40px;
     }
     .hero-right{
         display: flex;
@@ -466,7 +466,7 @@ footer > p > a {
     }
     .about-left{
         width: 100%;
-        padding: 20px;
+        padding: 40px;
     }
     .skills-container{
         flex-direction: column;
